@@ -42,7 +42,7 @@ for i in range(len(data)):
     if data.at[i,'Types'] == "Quán nhậu":
             data.at[i,'Types'] = 10
     if data.at[i,'Types'] == "Khách sạn":
-            data.at[i,'Types'] = 1
+            data.at[i,'Types'] = 11
     if data.at[i,'Types'] == "Bar":
             data.at[i,'Types'] = 12
 

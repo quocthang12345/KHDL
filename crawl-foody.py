@@ -13,6 +13,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import openpyxl
 
 
+
 name_stores = []
 types = []
 quality_points = []
@@ -92,7 +93,6 @@ def find():
 # def selenium(fromm, to, num_csv, name_thread):
 def selenium():
 	try:
-		# print(name_thread)
 		options = webdriver.ChromeOptions()
 		options.add_argument("--start-maximized")
 		options.add_argument("--disable-notifications")
